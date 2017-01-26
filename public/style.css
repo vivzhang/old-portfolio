@@ -1,0 +1,36 @@
+.profile {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.3;
+}
+
+.intro {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-size: 28px;
+  color: black;
+  font-family: 'Lora';
+  font-size: 200%;
+  font-weight: bold;
+}
+
+
+.photo {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  /*overflow:;*/
+  float: right;
+  /*display:inline-block;*/
+}
+
+.resumelink {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+}
